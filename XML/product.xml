@@ -1,0 +1,25 @@
+<Products>
+
+	<Product Id_No="11">
+
+		<Product_name>Samsung</Product_name>
+		<Unit_Price> 35000 </Unit_Price>
+		<Stock>50</Stock>
+		</Product>
+
+	<Product Id_No="20">
+
+		<Product_name>HTC</Product_name>
+		<Unit_Price> 65300 </Unit_Price>
+		<Stock>35</Stock>
+	</Product>
+
+	<Product Id_No="23">
+
+		<Product_name>Nokia</Product_name>
+		<Unit_Price> 25100 </Unit_Price>
+		<Stock>100</Stock>
+	</Product>
+		
+</Products>
+

@@ -1,0 +1,42 @@
+<Address>
+
+	<Address Id_No="1">
+
+		<name>John Doe</name>
+		<Address> H# 38, R#3, Banani, Dhaka  </Address>
+		<Department>Sales</Department>
+	    <Sallery> $20000 </Sallery>
+		</Address>
+	
+	<Address Id_No="2">
+
+		<name>Mark Zuckerberg</name>
+		<Address> Flat# A/1, H# 20, R#18, Mirpur, Dhaka  </Address>
+		<Department>Accounts</Department>
+	    <Sallery> $12000 </Sallery>
+		</Address>
+	
+	<Address Id_No="3">
+
+		<name>Ala Voski</name>
+		<Address> H# 38, R#3, Motijheel  </Address>
+		<Department>Human Resource </Department>
+		<Sallery> $30000 </Sallery>
+		</Address>
+	
+
+	<Product Id_No="20">
+
+		<Product_name>HTC</Product_name>
+		<Unit_Price> 65300 </Unit_Price>
+		<Stock>35</Stock>
+	</Product>
+
+	<Product Id_No="23">
+
+		<Product_name>Nokia</Product_name>
+		<Unit_Price> 25100 </Unit_Price>
+		<Stock>100</Stock>
+	</Product>
+		
+</Address>
