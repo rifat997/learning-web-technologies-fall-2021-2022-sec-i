@@ -1,15 +1,14 @@
 <?php
+
 ?>
-
 <html>
-
     <head>
         <title>Ajax Calculator</title>
-      
+        
         <style>
             .but{
-                width: 50px;
-                height: 80px;
+                width: 25px;
+                height: 25px;
                 font-weight: bold;
                 text-align: center;
             }
@@ -27,7 +26,7 @@
                 font-weight: bold;
                 text-align: center;
                 color: #ffffff;
-                background-color: Blue;
+                background-color: green;
             }
             .display{
                 background-color: #BCCD64;
@@ -39,7 +38,7 @@
         </style>
         <script>
             $(document).ready(function(){
-                //general
+                
                 $('input[type=button]').click(function(){
                     var num = $(this).val();
                     var old = $('#display').html();
@@ -52,7 +51,7 @@
                         $('#display').html(old);
                         return;
                     }
-                    
+                  
                     $.ajax({
                             url:'ajax.php',
                             type: "POST",
@@ -64,7 +63,7 @@
                             $('#display').html('Oops! An error occured');}
                            );
                 });
-                
+                //equal button click
                 $('#eql').click(function(){
                     var num = $('#display').html();
                     var old = $('#display').html();
@@ -84,7 +83,7 @@
     </head>
     <body>
 <!--        <button id="me">Click Me</button>-->
-Calculator Using AJAX/PHP
+Simple Calculator Using AJAX/PHP
 <table width="120">
     <tr>
         <td colspan="5"><textarea id="display" class="display"></textarea></td>
@@ -120,9 +119,6 @@ Calculator Using AJAX/PHP
     <tr>
         <td colspan="5"><input id="eql" value="=" type="button" class="eql"></td>
     </tr>
-</table>
 
-
-
-    </body>
+</body>
 </html>
